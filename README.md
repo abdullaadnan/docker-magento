@@ -211,7 +211,7 @@ curl -s https://raw.githubusercontent.com/markshust/docker-magento/master/lib/te
 # Replace with existing source code of your existing Magento instance:
 cp -R ~/Sites/existing src
 # or: git clone git@github.com:myrepo.git src
-
+#
 # Start some containers, copy files to them and then restart the containers:
 docker-compose -f docker-compose.yml up -d
 bin/copytocontainer --all ## Initial copy will take a few minutes...
